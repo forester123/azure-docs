@@ -297,6 +297,7 @@ The example defines the UpdatePlayReadyConfigurationXMLFile method that you can 
             private static CloudMediaContext _context = null;
 
             // Media Services account information.
+            //this is deprecated.
             private static readonly string _mediaServicesAccountName =
                 ConfigurationManager.AppSettings["MediaServiceAccountName"];
             private static readonly string _mediaServicesAccountKey =
