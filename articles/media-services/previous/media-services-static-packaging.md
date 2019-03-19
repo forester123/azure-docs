@@ -96,6 +96,7 @@ The following code sample uses Azure Media Services .NET SDK Extensions.  Make s
     {
         class Program
         {
+        //this is a test
             private static readonly string _mediaFiles =
                 Path.GetFullPath(@"../..\Media");
 
